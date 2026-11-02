@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# WhatsApp Baileys Session (Kredensial Sesi Login)
+session/
+
+# Environment Variables (Berisi API Key & Nomor Admin Rahasia)
+.env
+
+# SQLite Database & Cache
+*.db
+*.db-shm
+*.db-wal
+messages.db
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pino.log

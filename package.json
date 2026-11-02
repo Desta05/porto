@@ -1,0 +1,34 @@
+{
+  "name": "porto",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp Pengawas & AI Moderasi Grup (Baileys + Google Gemini + SQLite)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "view": "node view-db.js",
+    "list-grup": "node list-grup.js",
+    "rekap": "node rekap.js",
+    "daily-rekap": "node daily-rekap.js",
+    "cleanup": "node cleanup-grup.js"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "baileys",
+    "gemini-ai",
+    "content-moderation",
+    "spam-detector",
+    "security-bot",
+    "sqlite"
+  ],
+  "author": "Desta Mufrianto",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^2.31.0",
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^18.0.9",
+    "node-cron": "^4.6.0",
+    "pino": "^10.4.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
